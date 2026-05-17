@@ -1,0 +1,247 @@
+[
+  {
+    "file": "00_2277-149896-0000_00_clean.wav",
+    "kind": "clean",
+    "preset": null,
+    "transcript": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+    "clip_id": "2277-149896-0000"
+  },
+  {
+    "file": "00_2277-149896-0000_01_clean_link.wav",
+    "kind": "augmented",
+    "preset": "clean_link",
+    "transcript": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+    "clip_id": "2277-149896-0000"
+  },
+  {
+    "file": "00_2277-149896-0000_02_nominal_ham.wav",
+    "kind": "augmented",
+    "preset": "nominal_ham",
+    "transcript": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+    "clip_id": "2277-149896-0000"
+  },
+  {
+    "file": "00_2277-149896-0000_03_weak_signal.wav",
+    "kind": "augmented",
+    "preset": "weak_signal",
+    "transcript": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+    "clip_id": "2277-149896-0000"
+  },
+  {
+    "file": "00_2277-149896-0000_04_overmodulated.wav",
+    "kind": "augmented",
+    "preset": "overmodulated",
+    "transcript": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+    "clip_id": "2277-149896-0000"
+  },
+  {
+    "file": "00_2277-149896-0000_05_squelched.wav",
+    "kind": "augmented",
+    "preset": "squelched",
+    "transcript": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+    "clip_id": "2277-149896-0000"
+  },
+  {
+    "file": "00_2277-149896-0000_06_ducked.wav",
+    "kind": "augmented",
+    "preset": "ducked",
+    "transcript": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+    "clip_id": "2277-149896-0000"
+  },
+  {
+    "file": "01_2277-149896-0001_00_clean.wav",
+    "kind": "clean",
+    "preset": null,
+    "transcript": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+    "clip_id": "2277-149896-0001"
+  },
+  {
+    "file": "01_2277-149896-0001_01_clean_link.wav",
+    "kind": "augmented",
+    "preset": "clean_link",
+    "transcript": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+    "clip_id": "2277-149896-0001"
+  },
+  {
+    "file": "01_2277-149896-0001_02_nominal_ham.wav",
+    "kind": "augmented",
+    "preset": "nominal_ham",
+    "transcript": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+    "clip_id": "2277-149896-0001"
+  },
+  {
+    "file": "01_2277-149896-0001_03_weak_signal.wav",
+    "kind": "augmented",
+    "preset": "weak_signal",
+    "transcript": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+    "clip_id": "2277-149896-0001"
+  },
+  {
+    "file": "01_2277-149896-0001_04_overmodulated.wav",
+    "kind": "augmented",
+    "preset": "overmodulated",
+    "transcript": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+    "clip_id": "2277-149896-0001"
+  },
+  {
+    "file": "01_2277-149896-0001_05_squelched.wav",
+    "kind": "augmented",
+    "preset": "squelched",
+    "transcript": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+    "clip_id": "2277-149896-0001"
+  },
+  {
+    "file": "01_2277-149896-0001_06_ducked.wav",
+    "kind": "augmented",
+    "preset": "ducked",
+    "transcript": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+    "clip_id": "2277-149896-0001"
+  },
+  {
+    "file": "02_2277-149896-0002_00_clean.wav",
+    "kind": "clean",
+    "preset": null,
+    "transcript": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+    "clip_id": "2277-149896-0002"
+  },
+  {
+    "file": "02_2277-149896-0002_01_clean_link.wav",
+    "kind": "augmented",
+    "preset": "clean_link",
+    "transcript": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+    "clip_id": "2277-149896-0002"
+  },
+  {
+    "file": "02_2277-149896-0002_02_nominal_ham.wav",
+    "kind": "augmented",
+    "preset": "nominal_ham",
+    "transcript": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+    "clip_id": "2277-149896-0002"
+  },
+  {
+    "file": "02_2277-149896-0002_03_weak_signal.wav",
+    "kind": "augmented",
+    "preset": "weak_signal",
+    "transcript": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+    "clip_id": "2277-149896-0002"
+  },
+  {
+    "file": "02_2277-149896-0002_04_overmodulated.wav",
+    "kind": "augmented",
+    "preset": "overmodulated",
+    "transcript": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+    "clip_id": "2277-149896-0002"
+  },
+  {
+    "file": "02_2277-149896-0002_05_squelched.wav",
+    "kind": "augmented",
+    "preset": "squelched",
+    "transcript": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+    "clip_id": "2277-149896-0002"
+  },
+  {
+    "file": "02_2277-149896-0002_06_ducked.wav",
+    "kind": "augmented",
+    "preset": "ducked",
+    "transcript": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+    "clip_id": "2277-149896-0002"
+  },
+  {
+    "file": "03_2277-149896-0003_00_clean.wav",
+    "kind": "clean",
+    "preset": null,
+    "transcript": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+    "clip_id": "2277-149896-0003"
+  },
+  {
+    "file": "03_2277-149896-0003_01_clean_link.wav",
+    "kind": "augmented",
+    "preset": "clean_link",
+    "transcript": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+    "clip_id": "2277-149896-0003"
+  },
+  {
+    "file": "03_2277-149896-0003_02_nominal_ham.wav",
+    "kind": "augmented",
+    "preset": "nominal_ham",
+    "transcript": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+    "clip_id": "2277-149896-0003"
+  },
+  {
+    "file": "03_2277-149896-0003_03_weak_signal.wav",
+    "kind": "augmented",
+    "preset": "weak_signal",
+    "transcript": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+    "clip_id": "2277-149896-0003"
+  },
+  {
+    "file": "03_2277-149896-0003_04_overmodulated.wav",
+    "kind": "augmented",
+    "preset": "overmodulated",
+    "transcript": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+    "clip_id": "2277-149896-0003"
+  },
+  {
+    "file": "03_2277-149896-0003_05_squelched.wav",
+    "kind": "augmented",
+    "preset": "squelched",
+    "transcript": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+    "clip_id": "2277-149896-0003"
+  },
+  {
+    "file": "03_2277-149896-0003_06_ducked.wav",
+    "kind": "augmented",
+    "preset": "ducked",
+    "transcript": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+    "clip_id": "2277-149896-0003"
+  },
+  {
+    "file": "04_2277-149896-0004_00_clean.wav",
+    "kind": "clean",
+    "preset": null,
+    "transcript": "HOW WOULD THE PAPERS TALK ABOUT IT",
+    "clip_id": "2277-149896-0004"
+  },
+  {
+    "file": "04_2277-149896-0004_01_clean_link.wav",
+    "kind": "augmented",
+    "preset": "clean_link",
+    "transcript": "HOW WOULD THE PAPERS TALK ABOUT IT",
+    "clip_id": "2277-149896-0004"
+  },
+  {
+    "file": "04_2277-149896-0004_02_nominal_ham.wav",
+    "kind": "augmented",
+    "preset": "nominal_ham",
+    "transcript": "HOW WOULD THE PAPERS TALK ABOUT IT",
+    "clip_id": "2277-149896-0004"
+  },
+  {
+    "file": "04_2277-149896-0004_03_weak_signal.wav",
+    "kind": "augmented",
+    "preset": "weak_signal",
+    "transcript": "HOW WOULD THE PAPERS TALK ABOUT IT",
+    "clip_id": "2277-149896-0004"
+  },
+  {
+    "file": "04_2277-149896-0004_04_overmodulated.wav",
+    "kind": "augmented",
+    "preset": "overmodulated",
+    "transcript": "HOW WOULD THE PAPERS TALK ABOUT IT",
+    "clip_id": "2277-149896-0004"
+  },
+  {
+    "file": "04_2277-149896-0004_05_squelched.wav",
+    "kind": "augmented",
+    "preset": "squelched",
+    "transcript": "HOW WOULD THE PAPERS TALK ABOUT IT",
+    "clip_id": "2277-149896-0004"
+  },
+  {
+    "file": "04_2277-149896-0004_06_ducked.wav",
+    "kind": "augmented",
+    "preset": "ducked",
+    "transcript": "HOW WOULD THE PAPERS TALK ABOUT IT",
+    "clip_id": "2277-149896-0004"
+  }
+]

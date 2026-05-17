@@ -1,0 +1,401 @@
+{
+  "model_path": "../gemma4/finetune/runs/merged_bf16",
+  "total_clips": 35,
+  "overall_wer": 0.1197,
+  "by_condition": {
+    "clean": {
+      "clips": 5,
+      "avg_wer": 0.1316,
+      "min_wer": 0.0455,
+      "max_wer": 0.25
+    },
+    "clean_link": {
+      "clips": 5,
+      "avg_wer": 0.115,
+      "min_wer": 0.0455,
+      "max_wer": 0.1667
+    },
+    "ducked": {
+      "clips": 5,
+      "avg_wer": 0.115,
+      "min_wer": 0.0455,
+      "max_wer": 0.1667
+    },
+    "nominal_ham": {
+      "clips": 5,
+      "avg_wer": 0.1316,
+      "min_wer": 0.0455,
+      "max_wer": 0.25
+    },
+    "overmodulated": {
+      "clips": 5,
+      "avg_wer": 0.1407,
+      "min_wer": 0.0769,
+      "max_wer": 0.25
+    },
+    "squelched": {
+      "clips": 5,
+      "avg_wer": 0.1816,
+      "min_wer": 0.0455,
+      "max_wer": 0.5
+    },
+    "weak_signal": {
+      "clips": 5,
+      "avg_wer": 0.1907,
+      "min_wer": 0.0769,
+      "max_wer": 0.5
+    }
+  },
+  "clips": [
+    {
+      "file": "00_2277-149896-0000_00_clean.wav",
+      "condition": "clean",
+      "reference": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+      "hypothesis": "He was in a fevered state of mind owing to the blight his wife's action threatened to cast upon his entire future.",
+      "wer": 0.0455,
+      "errors": 1,
+      "ref_words": 22,
+      "time_s": 3.35
+    },
+    {
+      "file": "00_2277-149896-0000_01_clean_link.wav",
+      "condition": "clean_link",
+      "reference": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+      "hypothesis": "He was in a fevered state of mind owing to the blight his wife's action threatened to cast upon his entire future.",
+      "wer": 0.0455,
+      "errors": 1,
+      "ref_words": 22,
+      "time_s": 2.85
+    },
+    {
+      "file": "00_2277-149896-0000_02_nominal_ham.wav",
+      "condition": "nominal_ham",
+      "reference": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+      "hypothesis": "He was in a fevered state of mind owing to the blight his wife's action threatened to cast upon his entire future.",
+      "wer": 0.0455,
+      "errors": 1,
+      "ref_words": 22,
+      "time_s": 2.78
+    },
+    {
+      "file": "00_2277-149896-0000_03_weak_signal.wav",
+      "condition": "weak_signal",
+      "reference": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+      "hypothesis": "He was in a fevered state of mind owing to the blight his wife's actions threatened to cast upon his entire future.",
+      "wer": 0.0909,
+      "errors": 2,
+      "ref_words": 22,
+      "time_s": 2.76
+    },
+    {
+      "file": "00_2277-149896-0000_04_overmodulated.wav",
+      "condition": "overmodulated",
+      "reference": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+      "hypothesis": "He was in a fevered state of mind owing to the blight his wife's actions threatened to cast upon his entire future.",
+      "wer": 0.0909,
+      "errors": 2,
+      "ref_words": 22,
+      "time_s": 2.7
+    },
+    {
+      "file": "00_2277-149896-0000_05_squelched.wav",
+      "condition": "squelched",
+      "reference": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+      "hypothesis": "He was in a fevered state of mind owing to the blight his wife's action threatened to cast upon his entire future.",
+      "wer": 0.0455,
+      "errors": 1,
+      "ref_words": 22,
+      "time_s": 2.77
+    },
+    {
+      "file": "00_2277-149896-0000_06_ducked.wav",
+      "condition": "ducked",
+      "reference": "HE WAS IN A FEVERED STATE OF MIND OWING TO THE BLIGHT HIS WIFE'S ACTION THREATENED TO CAST UPON HIS ENTIRE FUTURE",
+      "hypothesis": "He was in a fevered state of mind owing to the blight his wife's action threatened to cast upon his entire future.",
+      "wer": 0.0455,
+      "errors": 1,
+      "ref_words": 22,
+      "time_s": 2.74
+    },
+    {
+      "file": "01_2277-149896-0001_00_clean.wav",
+      "condition": "clean",
+      "reference": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+      "hypothesis": "He would have to pay her the money which she would now regularly demand or there would be trouble. It did not matter what he did.",
+      "wer": 0.0769,
+      "errors": 2,
+      "ref_words": 26,
+      "time_s": 2.99
+    },
+    {
+      "file": "01_2277-149896-0001_01_clean_link.wav",
+      "condition": "clean_link",
+      "reference": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+      "hypothesis": "He would have to pay her the money which she would now regularly demand or there would be trouble. It did not matter what he did.",
+      "wer": 0.0769,
+      "errors": 2,
+      "ref_words": 26,
+      "time_s": 2.97
+    },
+    {
+      "file": "01_2277-149896-0001_02_nominal_ham.wav",
+      "condition": "nominal_ham",
+      "reference": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+      "hypothesis": "He would have to pay her the money which she would now regularly demand or there would be trouble. It did not matter what he did.",
+      "wer": 0.0769,
+      "errors": 2,
+      "ref_words": 26,
+      "time_s": 2.93
+    },
+    {
+      "file": "01_2277-149896-0001_03_weak_signal.wav",
+      "condition": "weak_signal",
+      "reference": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+      "hypothesis": "He would have to pay her the money which she would now regularly demand or there would be trouble. It did not matter what he did.",
+      "wer": 0.0769,
+      "errors": 2,
+      "ref_words": 26,
+      "time_s": 2.97
+    },
+    {
+      "file": "01_2277-149896-0001_04_overmodulated.wav",
+      "condition": "overmodulated",
+      "reference": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+      "hypothesis": "He would have to pay her the money which she would now regularly demand or there would be trouble. It did not matter what he did.",
+      "wer": 0.0769,
+      "errors": 2,
+      "ref_words": 26,
+      "time_s": 2.93
+    },
+    {
+      "file": "01_2277-149896-0001_05_squelched.wav",
+      "condition": "squelched",
+      "reference": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+      "hypothesis": "He would have to pay her the money which she would now regularly demand or there would be trouble. It did not matter what he did.",
+      "wer": 0.0769,
+      "errors": 2,
+      "ref_words": 26,
+      "time_s": 3.02
+    },
+    {
+      "file": "01_2277-149896-0001_06_ducked.wav",
+      "condition": "ducked",
+      "reference": "HE WOULD HAVE TO PAY HER THE MONEY WHICH SHE WOULD NOW REGULARLY DEMAND OR THERE WOULD BE TROUBLE IT DID NOT MATTER WHAT HE DID",
+      "hypothesis": "He would have to pay her the money which she would now regularly demand or there would be trouble. It did not matter what he did.",
+      "wer": 0.0769,
+      "errors": 2,
+      "ref_words": 26,
+      "time_s": 2.95
+    },
+    {
+      "file": "02_2277-149896-0002_00_clean.wav",
+      "condition": "clean",
+      "reference": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+      "hypothesis": "Harstwood walked the floor, mentally arranging the chief points of his situation.",
+      "wer": 0.25,
+      "errors": 3,
+      "ref_words": 12,
+      "time_s": 1.78
+    },
+    {
+      "file": "02_2277-149896-0002_01_clean_link.wav",
+      "condition": "clean_link",
+      "reference": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+      "hypothesis": "Hurstwood walked the floor, mentally arranging the chief points of his situation.",
+      "wer": 0.1667,
+      "errors": 2,
+      "ref_words": 12,
+      "time_s": 1.74
+    },
+    {
+      "file": "02_2277-149896-0002_02_nominal_ham.wav",
+      "condition": "nominal_ham",
+      "reference": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+      "hypothesis": "Hastwood walked the floor, mentally arranging the chief points of his situation.",
+      "wer": 0.25,
+      "errors": 3,
+      "ref_words": 12,
+      "time_s": 1.65
+    },
+    {
+      "file": "02_2277-149896-0002_03_weak_signal.wav",
+      "condition": "weak_signal",
+      "reference": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+      "hypothesis": "Herschel would walk the floor, mentally arranging the chief points of the situation.",
+      "wer": 0.5,
+      "errors": 6,
+      "ref_words": 12,
+      "time_s": 1.84
+    },
+    {
+      "file": "02_2277-149896-0002_04_overmodulated.wav",
+      "condition": "overmodulated",
+      "reference": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+      "hypothesis": "Hastwood walked the floor, mentally arranging the chief points of his situation.",
+      "wer": 0.25,
+      "errors": 3,
+      "ref_words": 12,
+      "time_s": 1.77
+    },
+    {
+      "file": "02_2277-149896-0002_05_squelched.wav",
+      "condition": "squelched",
+      "reference": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+      "hypothesis": "He would walk the floor mentally arranging the deep points of the situation.",
+      "wer": 0.5,
+      "errors": 6,
+      "ref_words": 12,
+      "time_s": 1.58
+    },
+    {
+      "file": "02_2277-149896-0002_06_ducked.wav",
+      "condition": "ducked",
+      "reference": "HURSTWOOD WALKED THE FLOOR MENTALLY ARRANGING THE CHIEF POINTS OF HIS SITUATION",
+      "hypothesis": "Hurstwood walked the floor, mentally arranging the chief points of his situation.",
+      "wer": 0.1667,
+      "errors": 2,
+      "ref_words": 12,
+      "time_s": 1.73
+    },
+    {
+      "file": "03_2277-149896-0003_00_clean.wav",
+      "condition": "clean",
+      "reference": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+      "hypothesis": "He also thought of his managerial position.",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.98
+    },
+    {
+      "file": "03_2277-149896-0003_01_clean_link.wav",
+      "condition": "clean_link",
+      "reference": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+      "hypothesis": "He also thought of his managerial position.",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.97
+    },
+    {
+      "file": "03_2277-149896-0003_02_nominal_ham.wav",
+      "condition": "nominal_ham",
+      "reference": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+      "hypothesis": "He also thought of his managerial position.",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.96
+    },
+    {
+      "file": "03_2277-149896-0003_03_weak_signal.wav",
+      "condition": "weak_signal",
+      "reference": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+      "hypothesis": "He also thought of his managerial position.",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.93
+    },
+    {
+      "file": "03_2277-149896-0003_04_overmodulated.wav",
+      "condition": "overmodulated",
+      "reference": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+      "hypothesis": "He also thought of his managerial position.",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.95
+    },
+    {
+      "file": "03_2277-149896-0003_05_squelched.wav",
+      "condition": "squelched",
+      "reference": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+      "hypothesis": "He also thought of his managerial position.",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.95
+    },
+    {
+      "file": "03_2277-149896-0003_06_ducked.wav",
+      "condition": "ducked",
+      "reference": "HE ALSO THOUGHT OF HIS MANAGERIAL POSITION",
+      "hypothesis": "He also thought of his managerial position.",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.96
+    },
+    {
+      "file": "04_2277-149896-0004_00_clean.wav",
+      "condition": "clean",
+      "reference": "HOW WOULD THE PAPERS TALK ABOUT IT",
+      "hypothesis": "How would the papers talk about it?",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.96
+    },
+    {
+      "file": "04_2277-149896-0004_01_clean_link.wav",
+      "condition": "clean_link",
+      "reference": "HOW WOULD THE PAPERS TALK ABOUT IT",
+      "hypothesis": "How would the papers talk about it?",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.93
+    },
+    {
+      "file": "04_2277-149896-0004_02_nominal_ham.wav",
+      "condition": "nominal_ham",
+      "reference": "HOW WOULD THE PAPERS TALK ABOUT IT",
+      "hypothesis": "How would the papers talk about it?",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.94
+    },
+    {
+      "file": "04_2277-149896-0004_03_weak_signal.wav",
+      "condition": "weak_signal",
+      "reference": "HOW WOULD THE PAPERS TALK ABOUT IT",
+      "hypothesis": "How would the papers talk about it?",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.97
+    },
+    {
+      "file": "04_2277-149896-0004_04_overmodulated.wav",
+      "condition": "overmodulated",
+      "reference": "HOW WOULD THE PAPERS TALK ABOUT IT",
+      "hypothesis": "How would the papers talk about it?",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.93
+    },
+    {
+      "file": "04_2277-149896-0004_05_squelched.wav",
+      "condition": "squelched",
+      "reference": "HOW WOULD THE PAPERS TALK ABOUT IT",
+      "hypothesis": "How would the papers talk about it?",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.94
+    },
+    {
+      "file": "04_2277-149896-0004_06_ducked.wav",
+      "condition": "ducked",
+      "reference": "HOW WOULD THE PAPERS TALK ABOUT IT",
+      "hypothesis": "How would the papers talk about it?",
+      "wer": 0.1429,
+      "errors": 1,
+      "ref_words": 7,
+      "time_s": 0.99
+    }
+  ]
+}

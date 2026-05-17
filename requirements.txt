@@ -1,0 +1,26 @@
+# Core inference stack
+# torch 2.10.0+cu130 is what the Gemma 4 audio encoder was validated on.
+# Install torch separately from the cu130 index if you need GPU:
+#   pip install torch==2.10.0+cu130 --index-url https://download.pytorch.org/whl/cu130
+torch==2.10.0
+transformers==5.5.4
+safetensors==0.7.0
+
+# Audio I/O + DSP
+soundfile
+numpy
+scipy
+librosa
+
+# TUI
+textual
+
+# Benchmark plotting
+matplotlib
+
+# SDR capture (optional — only needed for live monitoring with an RTL-SDR dongle)
+pyrtlsdr
+
+# Fine-tuning extras (only needed if you re-run finetune/train.py or merge_adapter.py)
+# peft
+# datasets

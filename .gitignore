@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Runtime outputs (re-generated on every run)
+llm_debug.log
+alerts.log
+alerts_audio/
+debug_audio/
+benchmark_results.json
+
+# Fine-tune outputs (too large for git; mirrored on HuggingFace)
+finetune/runs/
+finetune/librispeech_cache/
+finetune/beautified_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local launcher scripts (machine-specific paths)
+*.bat
