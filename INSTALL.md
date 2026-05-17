@@ -52,8 +52,9 @@ pip install torch==2.10.0
 ```
 AirGrep works on CPU but inference is **minutes per clip** instead of
 seconds.  Use `--cpu` on every command (see [§5](#5-quick-sanity-check))
-and plan on >= 16 GB system RAM.  Live SDR monitoring isn't practical in
-this mode; use `--demo` against pre-captured WAVs.
+and plan on >= 32 GB system RAM (the bf16 model weights are ~16 GB and
+need to fit in RAM with headroom).  Live SDR monitoring isn't practical
+in this mode; use `--demo` against pre-captured WAVs.
 
 ## 3. Everything else
 
@@ -107,10 +108,11 @@ python app.py --demo samples/00_2277-149896-0000_02_nominal_ham.wav \
 You should see the TUI launch, the model transcribe the clip, and the
 evaluation pass decide whether to alert.  Press `q` to quit.
 
-**No GPU?** Add `--cpu`.  First clip takes 2–5 minutes; subsequent ones
-~30 s.
+**No GPU?** Add `--cpu` (≥ 32 GB system RAM required, demo only — see
+[§2](#2-pytorch-gpu-vs-cpu)).  First clip takes 2–5 minutes; subsequent
+ones ~30 s.
 
-**8 GB GPU?** Add `--max-gpu-memory 7GiB` (see [§7](#7-memory-notes)).
+**Tight on VRAM?** See [§7](#7-memory-notes).
 
 ## 6. RTL-SDR dongle setup
 
@@ -166,21 +168,27 @@ The Gemma 4 E4B architecture advertises a ~4B-parameter memory
 footprint at inference via Per-Layer Embedding (PLE) offload.  **In
 HuggingFace Transformers as of v5.5, this offload is not automatic.**
 Without intervention, the model loads the full ~8B parameters into
-VRAM (~16 GB in bf16, ~8 GB with 4-bit quantization).
+VRAM (~16 GB in bf16).
 
-**If your GPU has ≥ 16 GB VRAM:** nothing to do.
+**Minimum supported configuration: a single ~16 GB consumer GPU**
+(e.g. RTX 4080, RTX 3090, RTX 4090).  This is what AirGrep is
+developed and tested on.
 
-**If your GPU has 8–12 GB VRAM:** pass `--max-gpu-memory 7GiB` (or
-whatever fits, leaving 1 GB of headroom for activations).  Accelerate
-will place PLE/embedding layers on CPU RAM and stream them as needed.
-Expect ~2× slower inference from PCIe transfers.  Requires at least
-32 GB system RAM for the CPU-resident layers.
+**Tuning headroom on a 16 GB card:** `--max-gpu-memory <size>` caps
+the model's VRAM allocation and spills the remainder to CPU RAM via
+`accelerate`.  Useful if other processes need GPU memory or if you're
+hitting OOM on long-running sweeps.  Expect slower inference from
+PCIe transfers.
 
-**If your GPU has < 8 GB VRAM:** use `--cpu`.  Real-time SDR monitoring
-is not feasible in this mode; `--demo` still works.
+**Smaller GPUs (< 16 GB) are not currently supported.**  4-bit
+quantization via bitsandbytes does *not* work with the Gemma 4 audio
+encoder due to a dtype bug in `Linear4bit`, and the PLE-offload path
+that would shrink the footprint to ~4B parameters isn't wired up
+in Transformers v5.5.  If support for smaller GPUs lands in a future
+Transformers release, AirGrep should pick it up without code changes.
 
-4-bit quantization via bitsandbytes does *not* work with the Gemma 4
-audio encoder due to a dtype bug in `Linear4bit` — don't bother.
+**No GPU at all:** see [§2](#2-pytorch-gpu-vs-cpu) — `--cpu` mode
+works for `--demo` only and needs ≥ 32 GB system RAM.
 
 ## Troubleshooting
 

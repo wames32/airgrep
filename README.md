@@ -87,11 +87,12 @@ is a headless equivalent that prints to the console — useful for
 long-running background monitoring, scripting, or environments without
 a TTY.
 
-Useful flags when resources are tight:
+Memory tuning:
 
-- `--cpu` — run without a GPU (slow; demo mode only)
-- `--max-gpu-memory 7GiB` — spill layers to CPU RAM when VRAM is tight
+- `--max-gpu-memory <size>` — caps VRAM use; remainder spills to CPU RAM
   (see [INSTALL.md §7](INSTALL.md#7-memory-notes))
+- `--cpu` — runs without a GPU; only practical for `--demo` against pre-captured
+  WAVs, requires ≥ 32 GB system RAM
 
 ## Model weights
 
@@ -113,7 +114,7 @@ python app.py --model-path /path/to/checkpoint -f 144.35
 - **Signal-gated pipeline**: pre-LLM RMS energy check skips silence instantly (no wasted GPU cycles)
 - **Wideband FFT scan**: sweeps 4 MHz in ~75 ms via FFT power detection (vs ~10 s per-channel)
 - **Tool-calling evaluation**: Pass 2 uses `alert_user(message, urgency)` tool calls -- no regex parsing
-- **Edge-friendly**: runs on a single GPU with 8 GB VRAM
+- **Edge-friendly**: runs locally on a single 16 GB consumer GPU — no cloud, no telemetry
 
 ## Repo structure
 
