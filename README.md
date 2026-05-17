@@ -2,6 +2,22 @@
 
 Radio-frequency monitoring with real-time ASR and intelligent alerting, powered by a fine-tuned Gemma 4 E4B.
 
+## Try AirGrep in 5 minutes
+
+No SDR dongle needed — the repo ships with sample radio WAVs you can run against immediately.
+
+```bash
+git clone https://github.com/wames32/airgrep
+cd airgrep
+pip install -r requirements.txt   # (CUDA torch first — see INSTALL.md §2)
+python app.py --demo samples/00_2277-149896-0000_02_nominal_ham.wav \
+              --watch "callsigns, emergencies"
+```
+
+The TUI launches, transcribes the bundled radio clip with the fine-tuned model, evaluates it against your watch criteria, and alerts if there's a match. The model weights (~16 GB) auto-download from HuggingFace on first run.
+
+**Requirements:** ~16 GB GPU VRAM. Full setup (including SDR dongle hardware for live radio monitoring) is in [INSTALL.md](INSTALL.md); more commands and flags are in [Quickstart](#quickstart) below.
+
 ## Architecture
 
 ```
